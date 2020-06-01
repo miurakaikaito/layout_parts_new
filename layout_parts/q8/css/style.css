@@ -14,7 +14,7 @@
       transition: all .5s;
     }
 
-    .q8__transition-img:hover {
+    .q8__transition:hover .q8__transition-img{
       transform: scale(1.5,1.5);
       bottom: 0;
     }
@@ -29,7 +29,7 @@
       transition: all .5s;
     }
 
-    .q8__transition__text:hover {
+    .q8__transition:hover .q8__transition-text{
       position: absolute;
       bottom: 0;
     }
