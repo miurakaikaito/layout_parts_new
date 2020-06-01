@@ -1,66 +1,69 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-  .text-align{
-    text-align: center;
-  }
-    .q6__box-text{
-      width: 90px;
-      padding: 10px 0;
-      background-color: #e6f2ff;
-    }
+.text-align {
+  text-align: center;
+}
 
-    .text-align .q6__box-text{
-      display: inline-block;
-    }
+.q6__box-text {
+  width: 90px;
+  padding: 10px 0;
+  background-color: #e6f2ff;
+}
 
-    .q6__box-text.margin {
-      margin: auto;
-      text-align: center;
-    }
+.text-align .q6__box-text {
+  display: inline-block;
+}
 
-  .q6.q6--around.table{
-    display: table;
-  }
+.q6__box-text.margin {
+  margin: auto;
+  text-align: center;
+}
 
-    .table-box{
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-    }
+.q6.q6--around.table {
+  display: table;
+}
 
-      .q6__content.table{
-        display: inline-block;
-      }
+.table-box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
 
-  .q6__content{
-    padding: 10px;
-    background-color: #fff;
-  }
+.q6__content.table {
+  display: inline-block;
+}
 
-  .q6.q6--around.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .q6--position .q6__box {
-    position: relative;
-  }
-  .q6__box.is-stable .q6__box__inner{
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+.q6__content {
+  padding: 10px;
+  background-color: #fff;
+}
 
-  .q6__box.is-flexible .q6__box__inner{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-  }
-  
+.q6.q6--around.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q6--position .q6__box {
+  position: relative;
+}
+
+.q6__box.is-stable .q6__box__inner {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.q6__box.is-flexible .q6__box__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
 /* 回答はここに書いてね */

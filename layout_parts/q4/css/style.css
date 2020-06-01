@@ -1,50 +1,51 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4{
+.q4 {
   background-color: #ECF1F2;
   padding: 20px;
 }
-  .q4__contents{
-    display: table;
-    width: 100%;
-    margin-top: 20px;
-  }
 
-  .q4__contents:first-child{
-    margin-top: 0;
-  }
+.q4__contents {
+  display: table;
+  width: 100%;
+  margin-top: 20px;
+}
 
-    .q4__content{
-      display: table-cell;
-      text-align: center;
-      padding: 20px 0;
-    }
+.q4__contents:first-child {
+  margin-top: 0;
+}
 
-    .q4__content.pink{
-      background-color: #FDC8B8;
-      width: 100px;
-    }
+.q4__content {
+  display: table-cell;
+  text-align: center;
+  padding: 20px 0;
+}
 
-    .q4__content.purple{
-      background-color: #E0ABD9;
-    }
+.q4__content.pink {
+  background-color: #FDC8B8;
+  width: 100px;
+}
 
-    .q4__content.blue{
-      background-color: #B6D8ED;
-      width: 100px;
-    }
+.q4__content.purple {
+  background-color: #E0ABD9;
+}
 
-    .q4__content.yellow{
-      background-color: #E5D32E;
-    }
+.q4__content.blue {
+  background-color: #B6D8ED;
+  width: 100px;
+}
 
-    .q4__content.red{
-      background-color: #EC8F9A;
-    }
+.q4__content.yellow {
+  background-color: #E5D32E;
+}
 
-    .q4__content.green{
-      background-color: #8FDCAD;
-      width: 500px;
-    }
+.q4__content.red {
+  background-color: #EC8F9A;
+}
+
+.q4__content.green {
+  background-color: #8FDCAD;
+  width: 500px;
+}
 /* 回答はここに書いてね */

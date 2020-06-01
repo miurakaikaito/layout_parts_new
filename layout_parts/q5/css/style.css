@@ -1,93 +1,94 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-  .q5{
-    background-color: #ecf1f2;
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    position: relative;
-  }
-    .q5__contents{
-      width: 100px;
-      line-height: 100px;
-      text-align: center;
-      font-size: 30px;
-      font-weight: bold;
-      position: absolute;
-    }
+.q5 {
+  background-color: #ecf1f2;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+}
 
-    .q5__contents.one{
-      background-color: #FFEFD3;
-      top: 40px;
-      left: 200px;
-      z-index: 1;
-    }
+.q5__contents {
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+}
 
-    .q5__contents.two{
-      background-color: #7084DE;
-      top: 120px;
-      left: 280px;
-      z-index: 2;
-    }
+.q5__contents.one {
+  background-color: #FFEFD3;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+}
 
-    .q5__contents.three{
-      background-color: #D0ECEA;
-      top: 200px;
-      left: 360px;
-      z-index: 3;
-    }
+.q5__contents.two {
+  background-color: #7084DE;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+}
 
-    .q5__contents.four{
-      background-color: #8B7A5E;
-      top: 280px;
-      left: 280px;
-      z-index: 4;
-    }
+.q5__contents.three {
+  background-color: #D0ECEA;
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+}
 
-    .q5__contents.five{
-      background-color: #9FD6D2;
-      top: 360px;
-      left: 200px;
-      z-index: 5;
-    }
+.q5__contents.four {
+  background-color: #8B7A5E;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+}
 
-    .q5__contents.six{
-      background-color: #FFFEE4;
-      top: 280px;
-      left: 120px;
-      z-index: 6;
-    }
+.q5__contents.five {
+  background-color: #9FD6D2;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+}
 
-    .q5__contents.seven{
-      background-color: #DEAE70;
-      top: 200px;
-      left: 40px;
-      z-index: 7;
-    }
+.q5__contents.six {
+  background-color: #FFFEE4;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+}
 
-    .q5__contents.eight{
-      background-color: #DE70CF;
-      top: 120px;
-      left: 120px;
-      z-index: 8;
-    }
+.q5__contents.seven {
+  background-color: #DEAE70;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+}
 
-    .q5__contents.eight::after{
-      position: absolute;
-      right: 0;
-      width: 20px;
-      height: 20px;
-      background-color: #FFEFD3;
-      content: "";
-    }
+.q5__contents.eight {
+  background-color: #DE70CF;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
 
-    .q5__contents.nine{
-      position: fixed;
-      top: 10px;
-      left: 10px;
-      background-color: #2B69A3;
-      z-index: 9;
-    }
+.q5__contents.eight::after {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #FFEFD3;
+  content: "";
+}
+
+.q5__contents.nine {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #2B69A3;
+  z-index: 9;
+}
 
 /* 回答はここに書いてね */
