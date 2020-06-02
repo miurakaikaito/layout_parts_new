@@ -12,57 +12,57 @@
   font-size: 16px;
 }
 
-.q7.q7--float .q7__box {
+.q7--float .q7__box {
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
 }
 
-.q7.q7--float .q7__box:first-child {
+.q7--float .q7__box:first-child {
   margin-left: 0;
 }
 
-.q7.q7--table .q7inner {
+.q7--table .q7__inner {
   display: table;
 }
 
-.q7.q7--table .q7__box {
+.q7--table .q7__box {
   display: table-cell;
   vertical-align: middle;
   padding-left: 50px;
 }
 
-.q7.q7--table .q7__box:first-child {
+.q7--table .q7__box:first-child {
   padding-left: 0;
 }
 
-.q7.q7--inlineblock .q7__box {
+.q7--inlineblock .q7__box {
   display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
   margin-left: 45px;
 }
 
-.q7.q7--inlineblock .q7__box:first-child {
+.q7--inlineblock .q7__box:first-child {
   margin-left: 0;
 }
 
-.q7.q7--flex .q7__inner {
+.q7--flex .q7__inner {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7.q7--flex .q7__box {
+.q7--flex .q7__box {
   box-sizing: border-box;
 }
 
-.q7__inner.is-full .q7__box.inline {
+.q7__box-inline {
   display: inline-block;
   width: 300px;
 }
 
-.q7__inner.is-full .q7__box.margin {
+.q7__box-margin {
   display: inline-block;
   margin-left: -305px;
   padding-left: 350px;

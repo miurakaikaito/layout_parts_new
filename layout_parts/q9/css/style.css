@@ -17,8 +17,6 @@
   content: "";
   border: 20px solid transparent;
   position: absolute;
-  left: 20%;
-  margin-left: 14px;
 }
 
 .q9__content:before {
@@ -29,7 +27,7 @@
 
 .q9__content::after {
   border-top-color: #ffffff;
-  bottom: -36px;
+  bottom: -38px;
   left: 30px;
 }
 /* 回答はここに書いてね */
