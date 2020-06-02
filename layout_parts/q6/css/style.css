@@ -11,11 +11,11 @@
   background-color: #e6f2ff;
 }
 
-.text-align .q6__box-text {
+.text-align.q6__box-text {
   display: inline-block;
 }
 
-.q6__box-text.margin {
+.margin {
   margin: auto;
   text-align: center;
 }
